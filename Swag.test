@@ -1,2 +1,7 @@
-Create a framework that tests the basic login functionality of the site, 
-provided with the login credentials required.
+// 'Create a framework that tests the basic login functionality of the site, 
+provided with the login credentials required '//
+// <reference types="cypress" />
+
+it('should navigate to the Swag lags app,() ==>{
+    cy.visit('https://www.saucedemo.com')
+    
